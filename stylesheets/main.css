@@ -5,8 +5,16 @@ body {
   font-family: Source Sans Pro;
 }
 
-#topnav {
+.topnav {
   margin: 10px;
+}
+
+.midnav {
+  display: block;
+}
+
+#title {
+  float: left;
 }
 
 #login {
