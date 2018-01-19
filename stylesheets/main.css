@@ -11,7 +11,7 @@ h1, h2, h4 {
 
 p {
   font-size: 14px;
-  padding: 5px 20px;
+  padding: 5px 10px 5px 20px;
 }
 
 h1 {
@@ -31,17 +31,24 @@ img {
 }
 
 div.description {
-  padding-bottom: 60px;
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
 
 div.image-grid {
   justify-content: space-around;
   display: flex;
+  padding-bottom: 100px;
 }
 
 div#image > h4 {
   font-size: 14px;
   padding-bottom: 10px;
+}
+
+.footer {
+  bottom: 10px;
+  position: absolute;
 }
 
 .row {
@@ -76,10 +83,11 @@ div#image > h4 {
 .topnav {
   background-color: rgb(10, 10, 40);
   min-height: 40px;
-  overflow: hidden;
   position: relative;
 }
 
 #login {
-  float: right;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
 }
