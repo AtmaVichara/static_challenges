@@ -10,8 +10,14 @@ h1 {
   font-size: 30px;
 }
 
-li {
-  display: inline;
+ul.row {
+  display: table;
+  width: 100%;
+  text-align: center;
+}
+
+ul.row > li {
+  display: table-cell;
 }
 
 .container {
@@ -21,10 +27,6 @@ li {
 .topnav {
   margin: 10px;
   padding-bottom: 10px;
-}
-
-.midnav {
-  display: block;
 }
 
 #login {
