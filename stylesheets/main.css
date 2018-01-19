@@ -1,0 +1,18 @@
+body {
+  background: url(../images/1.jpg);
+  background-size: cover;
+  color: white;
+  font-family: Source Sans Pro;
+}
+
+#topnav {
+  margin: 10px;
+}
+
+#login {
+  float: right;
+}
+
+.container {
+  padding-left: 50%;
+}
