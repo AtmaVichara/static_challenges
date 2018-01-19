@@ -5,9 +5,23 @@ body {
   font-family: Source Sans Pro;
 }
 
+h1, h2 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+  padding: 5px 20px;
+}
+
 h1 {
   float: left;
   font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 10px 20px;
 }
 
 .row {
@@ -29,12 +43,12 @@ h1 {
   background: rgba(10, 10, 15, 0.5);
 }
 
-div.topnav * {
+.topnav * {
   padding: 5px 10px;
 }
 
 .midnav {
-  background-color: rgb(190, 90, 0);
+  background-color: rgb(200,80,0);
   padding: 5px;
   font-size: 15px;
 }
