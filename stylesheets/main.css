@@ -7,32 +7,45 @@ body {
 
 h1 {
   float: left;
-  font-size: 30px;
+  font-size: 24px;
 }
 
-ul.row {
+.row {
   display: table;
   width: 100%;
   text-align: center;
 }
 
-ul.row > li {
+.row > li {
   display: table-cell;
 }
 
 .container {
-  padding-left: 50%;
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  left: 50%;
+  right: 0%;
+  background: rgba(10, 10, 15, 0.5);
+}
+
+div.topnav * {
+  padding: 5px 10px;
+}
+
+.midnav {
+  background-color: rgb(190, 90, 0);
+  padding: 5px;
+  font-size: 15px;
 }
 
 .topnav {
-  margin: 10px;
-  padding-bottom: 10px;
+  background-color: rgb(10, 10, 40);
+  min-height: 40px;
+  overflow: hidden;
+  position: relative;
 }
 
 #login {
   float: right;
-}
-
-#bars {
-  margin: 10px
 }
