@@ -5,22 +5,32 @@ body {
   font-family: Source Sans Pro;
 }
 
+h1 {
+  float: left;
+  font-size: 30px;
+}
+
+li {
+  display: inline;
+}
+
+.container {
+  padding-left: 50%;
+}
+
 .topnav {
   margin: 10px;
+  padding-bottom: 10px;
 }
 
 .midnav {
   display: block;
 }
 
-#title {
-  float: left;
-}
-
 #login {
   float: right;
 }
 
-.container {
-  padding-left: 50%;
+#bars {
+  margin: 10px
 }
